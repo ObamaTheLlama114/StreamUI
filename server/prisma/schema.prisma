@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:your-super-secret-and-long-postgres-password@localhost:5432"
+}
+
+model chats {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  message    String
+  chatterid  BigInt
+  chatter    chatters  @relation(fields: [chatterid], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model chatters {
+  id                            BigInt    @id @default(autoincrement())
+  created_at                    DateTime? @default(now()) @db.Timestamptz(6)
+  color                         String    @default("#FFFFFF")
+  username                      String    @unique
+  chats                         chats[]
+  follows                       follows[]
+  subs_chattersTosubs_chatter   subs[]    @relation("chattersTosubs_chatter")
+  subs_chattersTosubs_recipient subs[]    @relation("chattersTosubs_recipient")
+}
+
+model follows {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  chatterid  BigInt
+  chatter    chatters  @relation(fields: [chatterid], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model subs {
+  id                                BigInt    @id @default(autoincrement())
+  created_at                        DateTime? @default(now()) @db.Timestamptz(6)
+  recipient                         String?
+  tier                              Int       @db.SmallInt
+  months                            BigInt
+  chatterid                         BigInt
+  chatters_chattersTosubs_chatter   chatters  @relation("chattersTosubs_chatter", fields: [chatterid], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  chatters_chattersTosubs_recipient chatters? @relation("chattersTosubs_recipient", fields: [recipient], references: [username], onDelete: NoAction, onUpdate: NoAction)
+}

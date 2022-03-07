@@ -1,0 +1,265 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "www",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "package": "svelte-kit package",
+        "preview": "svelte-kit preview",
+        "prepare": "svelte-kit sync",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+        "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
+        "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "@types/cookie": "^0.4.1",
+        "prettier": "^2.5.1",
+        "prettier-plugin-svelte": "^2.5.0",
+        "svelte": "^3.46.0",
+        "svelte-check": "^2.2.6",
+        "svelte-preprocess": "^4.10.1",
+        "tslib": "^2.3.1",
+        "typescript": "~4.6.2"
+      },
+      "type": "module",
+      "dependencies": {
+        "@fontsource/fira-mono": "^4.5.0",
+        "@lukeed/uuid": "^2.0.0",
+        "cookie": "^0.4.1"
+      }
+    },
+    "prefix": "/mnt/d/projects/stream/streamui/www"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/mnt/d/.pnpm-store/v3",
+    "virtualStoreDir": "/mnt/d/projects/stream/streamui/www/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/mnt/d/projects/stream/streamui/www",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/cookie/0.4.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/cookie",
+      "rawSpec": "^0.4.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/cookie/0.4.1",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/cookie/0.4.1",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.3.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.3.1"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.3.1",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.3.1",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cookie/0.4.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "cookie",
+      "rawSpec": "^0.4.1"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.5.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^2.5.1"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.5.1",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.5.1",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.6.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.5.0"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.6.0",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.46.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.46.0"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.46.4",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.6.0",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.46.4",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@lukeed/uuid/2.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@lukeed/uuid",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@lukeed/uuid/2.0.0",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@lukeed/uuid/2.0.0",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.4.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.2.6"
+    }
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.4.5",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.4.5",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.31",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-auto",
+      "rawSpec": "next"
+    }
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.31",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.31",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@fontsource/fira-mono/4.5.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@fontsource/fira-mono",
+      "rawSpec": "^4.5.0"
+    }
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@fontsource/fira-mono/4.5.3",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.1"
+    }
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.4",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "resolved"
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.4",
+    "requester": "/mnt/d/projects/stream/streamui/www",
+    "status": "found_in_store"
+  },
+  "36 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.294: wanted: {\"node\":\">=14.13\"} (current: {\"node\":\"v12.22.5\",\"pnpm\":\"6.32.2\"})",
+    "prefix": "/mnt/d/projects/stream/streamui/www"
+  },
+  "37 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.294",
+    "wanted": {
+      "node": ">=14.13"
+    },
+    "current": {
+      "node": "v12.22.5",
+      "pnpm": "6.32.2"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.294: wanted: {\"node\":\">=14.13\"} (current: {\"node\":\"v12.22.5\",\"pnpm\":\"6.32.2\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.294: wanted: {\"node\":\">=14.13\"} (current: {\"node\":\"v12.22.5\",\"pnpm\":\"6.32.2\"})\n    at checkEngine (/home/bama/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:41280:16)\n    at checkPackage (/home/bama/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:43376:104)\n    at packageIsInstallable (/home/bama/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:43346:20)\n    at resolveAndFetch (/home/bama/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:74507:117)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at async resolveDependency (/home/bama/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:116088:23)\n    at async resolveDependenciesOfDependency (/home/bama/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:115923:39)\n    at async Promise.all (index 1)\n    at async resolveDependencies (/home/bama/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.2/node_modules/pnpm/dist/pnpm.cjs:115890:29)"
+    }
+  }
+}

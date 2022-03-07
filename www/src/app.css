@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root {
+	font-family: 'Space Mono', monospace;
+	color: #d8dee9;
+}
+
+body {
+	margin: 0;
+	background-color: #3b4252;
+}
